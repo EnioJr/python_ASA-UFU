@@ -1,7 +1,7 @@
 # Python & Flask & Docker
 # Arquitetura de Software Aplicada 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aulas de Python estudas na UFU 2 semestre de 2019 ,onde a materia é Arquitetura de Software
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aulas de Python estuda das na UFU 2 semestre de 2019 ,onde a materia é Arquitetura de Software
 Aplicada , dando enfaze ao framework FLASK e um software de contêiner chamado DOCKER.
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estudo sobre a linguagem Python.
 
