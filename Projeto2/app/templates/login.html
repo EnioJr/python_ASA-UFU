@@ -1,0 +1,37 @@
+<head>
+  <title>Sistema de Automacao</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styleslogin.css') }}">
+</head>
+
+<body>
+<h1>Sistema de Automação</h1>
+<div class="login-page">
+<div class="form">
+<form class="login-form">
+<div>
+{% block content %}
+<form action="" method="POST">
+  {{ form.csrf_token }}
+  <div class="form-grup">
+  <label>Usuario</label>
+  {{ form.username(class="form-control", placeholder="seu_usuario") }}
+  </div>
+  <div class="form-group">
+    <label>Senha</label>
+    {{ form.password(class="form-control") }}
+  </div>
+  <div class="checkbox">
+    <label>
+      {{ form.remember_me }} lembrar
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Entrar</button>
+  <p class="message">Não tem Cadastro? <a href="http://127.0.0.1:5000/cadastro">Cadastro</a></p>
+</form>
+
+{% endblock %}
+</form>
+</div>
+</div>
+</div>
+</body>
